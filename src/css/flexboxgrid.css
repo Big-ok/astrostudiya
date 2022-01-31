@@ -175,7 +175,7 @@
 
 .Section-quotePhoto--slack {
     background-color: #8f848e;
-    background-image: url(../img/astrolog-nadejda-yzuta.png)
+    background-image: url(img/astrolog-nadejda-yzuta.png)
 }
 
 /* .Section-quotePhoto--charityWater {
@@ -280,7 +280,7 @@
     display: block;
     width: 100%;
     height: 95px;
-    background: url(slack.svg);
+    background: url(img/slack.svg);
     background-size: 100% 100%;
     position: absolute;
     top: -95px;
