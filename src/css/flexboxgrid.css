@@ -1,0 +1,347 @@
+.row {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-right: 0;
+    margin-right: calc((0 * .5) * -1);
+    margin-left: -.5rem;
+    margin-left: 0;
+    margin-left: calc((0 * .5) * -1)
+}
+
+.row {
+    -webkit-box-orient: horizontal
+}
+
+
+
+.start-xs {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
+}
+
+.center-xs {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.end-xs {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+
+.top-xs {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.middle-xs {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.bottom-xs {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+}
+
+.around-xs {
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.between-xs {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.first-xs {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1
+}
+
+.last-xs {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+@media (min-width:670px) {
+
+    .col-sm-6 {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        padding-right: .5rem;
+        padding-right: 0;
+        padding-right: calc((0 * .5));
+        padding-left: .5rem;
+        padding-left: 0;
+        padding-left: calc((0 * .5))
+    }
+
+    .col-sm-6 {
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+
+}
+
+***
+
+.Section-quote {
+    background: #fff;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 62.5%;
+    font-family: Camphor, Open Sans, Segoe UI, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "pnum";
+    font-feature-settings: "pnum";
+    font-variant-numeric: proportional-nums
+}
+
+
+.Section-quote {
+    background: #f4f4f4;
+    -webkit-box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025);
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, .25), 0 18px 36px -18px rgba(0, 0, 0, .3), 0 -12px 36px -8px rgba(0, 0, 0, .025);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin: 30px 0 60px
+}
+
+@media (min-width:670px) {
+
+    .Section-quote--vertical {
+        margin: 0
+    }
+
+    .Section-quote--horizontal .Section-quotePhoto {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-height: auto
+    }
+}
+
+.Section-quotePhoto {
+    width: 100%;
+    min-height: 370px;
+    background-size: cover;
+    background-position: 50% 50%
+}
+/* 
+.Section-quotePhoto--lyft {
+    background-color: #a19273;
+    background-image: url(lyft.jpg)
+} */
+
+.Section-quotePhoto--slack {
+    background-color: #8f848e;
+    background-image: url(../img/astrolog-nadejda-yzuta.png)
+}
+
+/* .Section-quotePhoto--charityWater {
+    background-color: #68564a;
+    background-image: url(charity-water.jpg);
+    background-position: 20% 50%
+} */
+
+
+.Quote {
+    margin: 0;
+    padding: 40px;
+    position: relative;
+    z-index: 5;
+    color: #fff
+}
+
+@media (min-width:670px) {
+    .Quote {
+        padding: 66px
+    }
+}
+
+.Quote h2 {
+    margin: 0 0 10px -2px
+}
+
+.Quote p {
+    position: relative;
+    font-style: italic;
+    font-size: 2.1em;
+    line-height: 1.6em;
+    margin-bottom: 0
+}
+
+.Quote--lyft {
+    padding-top: 40px
+}
+
+@media (min-width:670px) {
+    .Quote--lyft {
+        padding-top: 66px;
+        padding-right: 77px !important
+    }
+}
+
+.Quote--lyft:before {
+    content: "";
+    display: block;
+    background: #eb268d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
+
+@media (min-width:670px) {
+    .Quote--lyft:before {
+        opacity: .9216;
+        right: 126px
+    }
+}
+/* 
+.Quote--lyft:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 95px;
+    background: url(lyft-vert.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -95px;
+    left: 0
+} */
+/* 
+@media (min-width:670px) {
+    .Quote--lyft:after {
+        width: 206px;
+        height: 100%;
+        background: url(lyft.svg);
+        background-size: 100% 100%;
+        left: auto;
+        right: -80px;
+        top: 0;
+        bottom: 0;
+        z-index: -1
+    }
+} */
+
+.Quote--slack {
+    position: relative;
+    padding-top: 46px;
+    background: #3eca99
+}
+
+.Quote--slack:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 95px;
+    background: url(slack.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -95px;
+    left: 0
+}
+
+.Quote--charityWater {
+    padding-top: 40px
+}
+
+@media (min-width:670px) {
+    .Quote--charityWater {
+        padding-top: 66px;
+        padding-right: 77px !important
+    }
+}
+
+.Quote--charityWater:before {
+    content: "";
+    display: block;
+    background: #eab504;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1
+}
+
+@media (min-width:670px) {
+    .Quote--charityWater:before {
+        opacity: .9216;
+        left: 76px
+    }
+}
+
+/* .Quote--charityWater:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 95px;
+    background: url(charity-water-vert.svg);
+    background-size: 100% 100%;
+    top: -95px;
+    left: 0;
+    position: absolute
+} */
+
+/* @media (min-width:670px) {
+    .Quote--charityWater:after {
+        content: "";
+        display: block;
+        width: 206px;
+        height: 100%;
+        background: url(charity-water.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 206px 100%;
+        left: -130px;
+        top: 0;
+        bottom: 0;
+        z-index: -1
+    }
+} */

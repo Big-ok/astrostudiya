@@ -17,6 +17,7 @@ import '../css/waves.css';
 import '../css/swiper-style.css';
 import '../css/form.css';
 import '../css/button-design.css';
+import '../css/flexboxgrid.css';
 // import '../css/test.css'
 
 // import tippy from 'tippy.js';

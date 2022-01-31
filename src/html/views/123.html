@@ -1,0 +1,251 @@
+<!-- prettier-ignore -->
+<% var data = { 
+    title: "Обучение астрологии для начинающих с нуля: курсы астролога онлайн", 
+    description: "Обучение астрологии для начинающих с нуля: курсы астролога онлайн", 
+    url: "/",
+    image: "/",
+    canonical: "index.html" }; %>
+    <!DOCTYPE html>
+    <html lang="ru-RU">
+    
+    <head>
+      <%= _.template(require('./../includes/head.html').default)(data) %>
+      <base href="<%= htmlWebpackPlugin.options.base %>" />
+    </head>
+    
+    <body>
+      <%= _.template(require('./../includes/header.html').default)(data) %>
+    
+      <main>
+        <article>
+          <div itemscope="" itemtype="http://schema.org/Article">
+            <div itemprop="articleBody" class="page">
+              <!-- -- -->
+              <section style="top: -4px">
+                <div class="jumbotron d-flex align-items-center">
+    
+    
+                  <div class="container text-center">
+    
+                    <h1>
+                      Кто Я
+                    </h1>
+                    <p class="mission">
+                      Наша миссия — дать людям качественные знания в области астрологии для развития личности и других
+                      сфер своей жизни.
+                    </p>
+                  </div>
+
+    
+                  <div class="rectangle-1"></div>
+                  <div class="rectangle-2"></div>
+                  <div class="rectangle-transparent-1"></div>
+                  <div class="rectangle-transparent-2"></div>
+    
+                </div>
+              </section>
+              <!-- -- -->
+    
+    
+              <!-- Где использовать 2 -->
+              <h2 class="title-h2">Праздники и вечеринки от BIG-PARTY</h2>
+              <section class="col-three column">
+                <div class="table-container">
+                  <table class="table">
+                    <thead class="table-header">
+                      <tr>
+                        <th class="table__image"></th>
+                        <th class="table__title">Виды мероприятий</th>
+                        <th class="table__sku">
+                          Количество<br />
+                          гостей
+                        </th>
+                        <th class="table__quantity">Количество столов</th>
+                        <th class="table__not-packed">Доставка</th>
+                        <th class="table__total">Стоимость праздника</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-tbody">
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-wedding"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/1_410.jpg'>">
+                          <span>Свадьба в стиле «Лас-Вегас»</span> <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Гости:">
+                          <span>60</span>
+                        </td>
+                        <td class="table__name" data-name="Кол-во столов:">
+                          <span>2, 3</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>+</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 32 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-team-building"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/2_410.jpg'>">
+                          <span>Тимбилдинг на природе (винное казино / пивное казино,
+                            покер под открытым небом)</span>
+                          <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>60</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>2</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>оплачивается отдельно</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 38 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-bachelor-party"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/3_410.jpg'>">
+                          <span>Покерный турнир на мальчишник</span>
+                          <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>20</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>2</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>+</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>34 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-wellcome"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/4_410.jpg'>">
+                          <span>Пивное казино / винное казино, рулетка на
+                            вэлком</span>
+                          <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>60</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>1, 2</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>+</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 17 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-company-birthday"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/5_410.jpg'>">
+                          <span>День рождения компании</span> <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>60</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>2, 3</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>+</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 34 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-corporate"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/6_410.jpg'>">
+                          <span>Летний корпоратив компании под открытым небом</span>
+                          <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>60</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>3</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>оплачивается отдельно</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 51 000 ₽</span>
+                        </td>
+                      </tr>
+                      <tr class="table-tr">
+                        <td class="table__image">
+                          <svg class="ico" style="stroke-width: 1">
+                            <use xlink:href="sprite/sprite-advantage.svg#ico-birthday-poker"></use>
+                          </svg>
+                        </td>
+                        <td class="table__title show-img"
+                          data-tippy-content="<img class='tippy-img' src='image/7_410.jpg'>">
+                          <span>Покер на день рождения</span> <span>?</span>
+                        </td>
+                        <td class="table__name" data-name="Количество:">
+                          <span>20</span>
+                        </td>
+                        <td class="table__name" data-name="Аренда:">
+                          <span>1, 2</span>
+                        </td>
+                        <td class="table__name" data-name="Доставка:">
+                          <span>+</span>
+                        </td>
+                        <td class="table__name" data-name="Стоимость:">
+                          <span>от 17 000 ₽</span>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+              <!-- Где использовать 2 -->
+            </div>
+          </div>
+        </article>
+      </main>
+    
+      <%= _.template(require('./../includes/footer.html').default)(data) %>
+      <!-- prettier-ignore -->
+      <%=_.template(require('./../includes/script.html').default)(data) %>
+    </body>
+    
+    </html>
